@@ -635,6 +635,7 @@ foobar = foo == 2 ? bar : baz
 foobar = foo == 2 ?
     bar :
     baz
+foobar = foo == 2 ? bar : foo == 3 ? qux : baz
 ```
 
 As an alternative, you can use a compound boolean expression:
