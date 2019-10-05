@@ -626,6 +626,8 @@ Floating-point numbers should always include a leading and/or trailing zero:
 ### Ternary Operator
 
 Ternary operators should generally only consume a single line.
+Do not chain multiple ternary operators.
+If chaining many conditions, consider using dispatch or a dictionary.
 
 ```julia
 # Yes:
